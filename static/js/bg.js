@@ -1,6 +1,6 @@
 (function(w) {
     function initBgVideo() {
-        let random = window.getRandom(['1', "2", "3", "4", "5"]);
+        let random = window.getRandom(['1', "2", "3", "4"]);
         var video = document.getElementById('video_source');
         let src = "../static/images/index/video/" + random + ".MP4";
         video.src = src;
