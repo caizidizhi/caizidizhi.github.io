@@ -1,0 +1,172 @@
+*,
+*:after,
+*:before {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    opacity: 1;
+}
+
+html,
+body {
+    margin: 0;
+    padding: 0;
+    background: #000;
+    color: #fff;
+}
+
+img {
+    width: 100%;
+}
+
+a {
+    text-decoration: none;
+    cursor: pointer;
+}
+
+ul {
+    padding: 0;
+    margin: 0;
+}
+
+.row {
+    display: block;
+    margin-bottom: 10px;
+}
+
+.container {
+    width: 90%;
+    margin: 0 auto;
+}
+
+.pc_show {
+    display: block;
+}
+
+.mobile_show {
+    display: none;
+}
+
+.overlay {
+    height: 0;
+    position: fixed;
+    z-index: 9999;
+    top: 78vh;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    background-color: rgba(0, 0, 0, 0.8);
+    overflow-y: hidden;
+    transition: .5s;
+}
+
+.overlay-content {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+}
+
+
+
+*::-webkit-scrollbar {
+    width: 2px;
+    height: 2px;
+}
+
+*::-webkit-scrollbar-thumb {
+    border-radius: 5px;
+    -webkit-box-shadow: inset 0 0 5px rgba(0, 0, 0, 0.2);
+    background: rgba(0, 0, 0, 0.2);
+}
+
+*::-webkit-scrollbar-track {
+    -webkit-box-shadow: inset 0 0 5px rgba(0, 0, 0, 0.2);
+    border-radius: 0;
+    background: rgba(0, 0, 0, 0.1);
+}
+
+@media (max-width: 738px) {
+    .pc_show {
+        display: none;
+    }
+    .mobile_show {
+        display: block;
+    }
+    .overlay {
+        height: 0;
+        position: fixed;
+        z-index: 9999;
+        top: 0;
+        left: 0;
+        bottom: 0;
+        right: 0;
+        background-color: rgba(0, 0, 0, 0.8);
+        overflow-y: hidden;
+        transition: .5s;
+    }
+    .overlay-content {
+        position: relative;
+        width: 100%;
+        height: 100%;
+        text-align: center;
+    }
+}
+
+.icon {
+    width: 20px;
+    height: 20px;
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.text-left {
+    text-align: left;
+}
+
+.text-right {
+    text-align: right;
+}
+
+.text-center {
+    text-align: center;
+}
+
+.img-content {
+    cursor: pointer;
+}
+
+.text-justify {
+    text-align: justify;
+}
+
+.text-justify:after {
+    content: '';
+    width: 100%;
+    display: inline-block;
+    overflow: hidden;
+    height: 0;
+}
+
+.c_orange {
+    color: #f2ae35;
+}
+
+.c_ddd {
+    color: #ddd;
+}
+
+.c_blue {
+    color: #2382c5;
+}
+
+.c_yellow {
+    color: #d99e54;
+}
+
+.c_red {
+    color: #e0615b;
+}

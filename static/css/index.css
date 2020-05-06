@@ -1,0 +1,142 @@
+video {
+    position: fixed;
+    right: 0;
+    bottom: 0;
+    min-width: 100%;
+    min-height: 100%;
+    width: auto;
+    height: auto;
+    z-index: 0;
+}
+
+.mask {
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    background: rgba(0, 0, 0, 0.4)
+}
+
+.hover-container {
+    position: absolute;
+    top: 10%;
+    width: 80%;
+    text-align: center;
+    right: 10%;
+}
+
+.logo {
+    width: 140px;
+}
+
+.title {
+    width: 68%;
+    margin: 10% auto 0;
+    font-size: 60px;
+}
+
+.child-title {
+    width: 68%;
+    margin: 0 auto;
+    font-weight: 100;
+    font-size: 14px;
+}
+
+.desc {
+    font-size: 21px;
+    font-weight: 100;
+    width: 80%;
+    margin: 3% auto 10%;
+}
+
+.btn-enter {
+    width: 230px;
+    margin: 0 auto;
+    border: 1px solid;
+    border-radius: 36px;
+    padding: 8px;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+.btn-enter:hover {
+    background: rgba(255, 255, 255, 0.4);
+    color: #fff;
+}
+
+.enter p {
+    font-size: 18px;
+    font-weight: 100;
+}
+
+.bottom {
+    margin-top: 1%;
+}
+
+.bottom p {
+    font-weight: 100;
+    font-size: 13px;
+    margin: 0px;
+}
+
+@media(max-width:738px) {
+    video {
+        left: -100%;
+    }
+    .hover-container {
+        width: 90%;
+        right: 5%;
+    }
+    .title {
+        width: 87%;
+        margin: 15% auto 5px;
+        font-size: 28px;
+    }
+    .child-title {
+        width: 86%;
+        font-size: 12px;
+    }
+    .desc {
+        font-size: 17px;
+        font-weight: 300;
+        width: 83%;
+        margin: 0 auto;
+    }
+    .desc-body {
+        margin: 15% auto 18%;
+    }
+    .desc-bottom {
+        width: 50%;
+        font-size: 17px;
+        font-weight: 300;
+        margin: 5px auto;
+    }
+    .btn-enter {
+        width: 226px;
+        padding: 6px;
+        font-size: 18px;
+    }
+    .btn-enter:hover {
+        background: rgba(255, 255, 255, 0.4);
+        color: #fff;
+    }
+    .enter p {
+        font-size: 18px;
+        font-weight: 100;
+    }
+    .bottom {
+        margin-top: 20%;
+    }
+    .bottom p {
+        font-size: 11px;
+    }
+    #gif_bg {
+        width: 100vw;
+        height: 100vh;
+    }
+    #gif_bg img {
+        height: 100%;
+        width: 110%;
+    }
+}
