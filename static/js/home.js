@@ -4,6 +4,10 @@
         document.getElementById("btnEnter").onclick = function() {
             window.open(enterUrl, "_blank");
         }
+        let enterUrl = 'http://caiziav.github.io';
+        document.getElementById("btnfabu").onclick = function() {
+            window.open(enterUrl, "_blank");
+        }
     }
     function init() {
         enterLine();
