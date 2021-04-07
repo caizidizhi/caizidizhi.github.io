@@ -1,6 +1,6 @@
 (function(w) {
     function enterLine() {
-        let enterUrl = 'http://caiziav.xyz';
+        let enterUrl = 'http://caiziav.pw';
         document.getElementById("btnEnter").onclick = function() {
             window.open(enterUrl, "_blank");
         }
